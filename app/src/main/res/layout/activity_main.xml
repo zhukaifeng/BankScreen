@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="712px"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="464px"
+            android:layout_height="match_parent"
+            android:background="#43964E"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <org.raphets.roundimageview.RoundImageView
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginTop="33px"
+                app:leftBottom_corner_radius="150dp"
+                app:leftTop_corner_radius="150dp"
+                android:src="@mipmap/ic_launcher"
+                app:rightBottom_corner_radius="150dp"
+                app:rightTop_corner_radius="150dp"
+                app:type="round" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="54"
+                android:layout_marginTop="28px"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="陈雅"
+                android:layout_marginTop="35px"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@mipmap/ic_star" />
+
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@mipmap/ic_star" />
+
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@mipmap/ic_star" />
+
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@mipmap/ic_star_un" />
+
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@mipmap/ic_star_un" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点赞：10"
+                android:layout_marginTop="21px"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="交易量：76单"
+                android:layout_marginTop="15px"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/ic_right_bg" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="464px"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+            
+            <ImageView
+                android:layout_width="230px"
+                android:layout_height="230px"
+                android:layout_marginTop="35px"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付码"
+                android:textSize="20sp"
+                android:layout_marginTop="10px"
+                android:textColor="#000000"
+                />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/tv_bbottom"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="#00A0E9"
+                        android:layout_marginTop="5px"
+                        android:layout_height="68px">
+                        
+                        <ImageView
+                            android:id="@+id/iv_title1"
+                            android:layout_width="60px"
+                            android:layout_height="48px"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/white"
+                            android:layout_marginLeft="28px"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="胡柚"
+                            android:layout_marginLeft="18px"
+                            android:layout_toRightOf="@+id/iv_title1"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.00元/斤"
+                            android:layout_marginLeft="18px"
+                            android:layout_marginRight="30px"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+                        
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="#009944"
+                        android:layout_marginTop="5px"
+                        android:layout_height="68px">
+
+                        <ImageView
+                            android:id="@+id/iv_title2"
+                            android:layout_width="60px"
+                            android:layout_height="48px"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/white"
+                            android:layout_marginLeft="28px"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="胡柚"
+                            android:layout_marginLeft="18px"
+                            android:layout_toRightOf="@+id/iv_title2"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.00元/斤"
+                            android:layout_marginLeft="18px"
+                            android:layout_marginRight="30px"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="#00A0E9"
+                        android:layout_marginTop="5px"
+                        android:layout_height="68px">
+
+                        <ImageView
+                            android:id="@+id/iv_title3"
+                            android:layout_width="60px"
+                            android:layout_height="48px"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/white"
+                            android:layout_marginLeft="28px"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="胡柚"
+                            android:layout_marginLeft="18px"
+                            android:layout_toRightOf="@+id/iv_title3"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.00元/斤"
+                            android:layout_marginLeft="18px"
+                            android:layout_marginRight="30px"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="#009944"
+                        android:layout_marginTop="5px"
+                        android:layout_height="68px">
+
+                        <ImageView
+                            android:id="@+id/iv_title4"
+                            android:layout_width="60px"
+                            android:layout_height="48px"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/white"
+                            android:layout_marginLeft="28px"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="胡柚"
+                            android:layout_marginLeft="18px"
+                            android:layout_toRightOf="@+id/iv_title4"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.00元/斤"
+                            android:layout_marginLeft="18px"
+                            android:layout_marginRight="30px"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="6px"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"/>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="#00A0E9"
+                        android:layout_marginTop="5px"
+                        android:layout_height="68px">
+
+                        <ImageView
+                            android:id="@+id/iv_title5"
+                            android:layout_width="60px"
+                            android:layout_height="48px"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/white"
+                            android:layout_marginLeft="28px"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="胡柚"
+                            android:layout_marginLeft="18px"
+                            android:layout_toRightOf="@+id/iv_title5"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.00元/斤"
+                            android:layout_marginLeft="18px"
+                            android:layout_marginRight="30px"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="#009944"
+                        android:layout_marginTop="5px"
+                        android:layout_height="68px">
+
+                        <ImageView
+                            android:id="@+id/iv_title6"
+                            android:layout_width="60px"
+                            android:layout_height="48px"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/white"
+                            android:layout_marginLeft="28px"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="胡柚"
+                            android:layout_marginLeft="18px"
+                            android:layout_toRightOf="@+id/iv_title6"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.00元/斤"
+                            android:layout_marginLeft="18px"
+                            android:layout_marginRight="30px"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="#00A0E9"
+                        android:layout_marginTop="5px"
+                        android:layout_height="68px">
+
+                        <ImageView
+                            android:id="@+id/iv_title7"
+                            android:layout_width="60px"
+                            android:layout_height="48px"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/white"
+                            android:layout_marginLeft="28px"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="胡柚"
+                            android:layout_marginLeft="18px"
+                            android:layout_toRightOf="@+id/iv_title7"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.00元/斤"
+                            android:layout_marginLeft="18px"
+                            android:layout_marginRight="30px"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="#009944"
+                        android:layout_marginTop="5px"
+                        android:layout_height="68px">
+
+                        <ImageView
+                            android:id="@+id/iv_title8"
+                            android:layout_width="60px"
+                            android:layout_height="48px"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/white"
+                            android:layout_marginLeft="28px"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="胡柚"
+                            android:layout_marginLeft="18px"
+                            android:layout_toRightOf="@+id/iv_title8"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.00元/斤"
+                            android:layout_marginLeft="18px"
+                            android:layout_marginRight="30px"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@android:color/white"
+                            android:layout_centerVertical="true"
+                            />
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_bbottom"
+                android:layout_width="match_parent"
+                android:layout_height="68px"
+                android:layout_alignParentBottom="true"
+                android:background="#E4007F"
+                android:text="法治，爱国，敬业"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="10px"
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
